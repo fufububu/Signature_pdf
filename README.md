@@ -16,7 +16,18 @@ Developed and tested with:
     
  ## Installing
 If you want to modify/compile the program you candownload Signature.java source otherwise download into your working directory **Signature_pdf.jar**, **markers** and **sample** folders and run it typing:  
-java -jar Signature_pdf.jar <working directory> <input filename> <output filename> <group number> <signature sheets> <markers filename>  
+  
+    java -jar Signature_pdf.jar <working directory> <input filename> <output filename> <signature number> <signature sheets> <markers filename>   
+
+where:  
+ -working directory: path where are located *\*.jar* program, *marker* folder and file to be processed  
+ -input filename   : file name to be processed (without .pdf extension)  
+ -output filename  : processede file name  
+ -signature number : input file number of signatures  
+ -signature sheets : signature number of sheets  
+ -markers filename : optional markers flename (defaukt "marker")  
+  
+  
 If you want to compile/modify simply download Signature.java source, create a NetBeans or Eclpse IDE project, add *itext5-itextpdf-5.5.12.jar* library and add/modify  
     
  ## Requirements
