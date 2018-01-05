@@ -13,9 +13,12 @@ Developed and tested with:
  + java version "1.8.0_25"
  + Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
  + itext5-itextpdf-5.5.12.jar library [(https://github.com/itext/itextpdf/releases/tag/5.5.12)]  
+ + javax.swing library
     
  ## Installing
-If you want to modify/compile the program you candownload Signature.java source otherwise download into your working directory **Signature_pdf.jar**, **markers** and **sample** folders and run it typing:  
+If you want to compile/modify simply download Signature.java source, create a NetBeans or Eclpse IDE project, add *itext5-itextpdf-5.5.12.jar* library and add/modify and compile  
+
+Otherwise download into your working directory **Signature_pdf.jar**, **markers** and **sample** folders and run it typing:  
   
     java -jar Signature_pdf.jar <working directory> <input filename> <output filename> <signature number> <signature sheets> <markers filename>   
 
@@ -26,9 +29,10 @@ where:
  -signature number : input file number of signatures  
  -signature sheets : signature number of sheets  
  -markers filename : optional markers flename (defaukt "marker")  
+ 
+ If you run without command line parameters a window will open 
   
-  
-If you want to compile/modify simply download Signature.java source, create a NetBeans or Eclpse IDE project, add *itext5-itextpdf-5.5.12.jar* library and add/modify  
+ 
     
  ## Requirements
  
