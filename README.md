@@ -16,7 +16,7 @@ Developed and tested with:
  + javax.swing library
     
  ## Installing
-If you want to compile/modify simply download Signature.java source, create a NetBeans or Eclpse IDE project, add *itext5-itextpdf-5.5.12.jar* library and add/modify and compile  
+If you want to compile/modify simply download Signature.java source, create a NetBeans or Eclipse IDE project, add *itext5-itextpdf-5.5.12.jar* library and add/modify and compile  
 
 Otherwise download into your working directory **Signature_pdf.jar**, **markers** and **sample** folders and run it typing:  
   
