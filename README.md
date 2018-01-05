@@ -53,6 +53,9 @@ Copy *Sample booklet.pdf* from *sample* folder in your working directory and exe
 
 or run it without parameters, a window will ask them  
 ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf3.png)  
+
+when you press OK a window consolo will show you a work resume or a log of the errors encountered, it will closa after 5 seconds
+
 ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf4.png)  
 
 The ouput file *Sample booklet_OK.pdf* will contain the required markers and when printed and folded the booklet spline will show numbered and scaled markers to check correct stiching as in figure:  
