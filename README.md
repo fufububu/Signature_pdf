@@ -34,14 +34,7 @@ where:
  If you run without command line parameters a window will open to ask parameters, markers filename is optional
   
  ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf2.png)  
- ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf3.png)  
- ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf4.png)  
  
-    
- ## Requirements
- 
-
-
  ## Example
 Lets assume we need to bind an A4 size 96 pages book (*sample.pdf*).  
 We first enlarge pages to hold cut marks, insert cut marks and set internal margin on odd and even pages (*Sample step and repeat.pdf*)  
@@ -56,6 +49,9 @@ Then create a 48 pages booklet adjusting its dimensions to be printed on SRA3 pa
 We want markers superimposed on the folding of pages 1, 9, 7, 25, 33, 41 of this file before printing it.  
 Copy *Sample booklet.pdf* from *sample* folder in your working directory and execute 
 c:\temp\java -jar Signature_pdf.jar c:\temp "Sample booklet" "Sample booklet_OK" 6 4  
+![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf3.png)  
+![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf4.png)  
+
 The ouput file *Sample booklet_OK.pdf* will contain the required markers and when printed and folded the booklet spline will show numbered and scaled markers to check correct stiching as in figure:  
 <table><tr><td>
     <img src="https://github.com/fufububu/Signature_pdf/blob/master/Sample_book_spine.png"width="1024" height="150">
