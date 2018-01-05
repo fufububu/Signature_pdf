@@ -47,8 +47,11 @@ Then create a 48 pages booklet adjusting its dimensions to be printed on SRA3 pa
  * signatue 6 - booklet pages 41-48  
 
 We want markers superimposed on the folding of pages 1, 9, 7, 25, 33, 41 of this file before printing it.  
-Copy *Sample booklet.pdf* from *sample* folder in your working directory and execute 
-c:\temp\java -jar Signature_pdf.jar c:\temp "Sample booklet" "Sample booklet_OK" 6 4  
+Copy *Sample booklet.pdf* from *sample* folder in your working directory and execute  
+   
+    java -jar Signature_pdf.jar c:\temp "Sample booklet" "Sample booklet_OK" 6 4  
+
+or run it without parameters, a window will ask them  
 ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf3.png)  
 ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf4.png)  
 
