@@ -1,24 +1,23 @@
 # Signature pdf
-*iText* program to insert markers on signature spines when binding books.  
+*iText5* program to insert markers on signature spines when binding books.  
 During automatic book stiching sometimes some pages go out of sequence and signatures will be wrong,  
 if not rapidly detected you will end with books to dismantle and correct or even worse to throw away if already binded.  
-I wrote this program to add a number to each signature in order rapidly check the correctness of stiching process 
+I wrote this program to add a number to each signature in order to rapidly check the correctness of stiching process 
 only examining at the book spine. 
 
  ## Prerequisites
 
 Developed and tested with:
-    
-    Windows 7 64 bit
-    NetBeans IDE 8.0.2
-    java version "1.8.0_25"
-    Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
-    itext5-itextpdf-5.5.12.jar library  https://github.com/itext/itextpdf/releases/tag/5.5.12  
+ + Windows 7 64 bit
+ + NetBeans IDE 8.0.2
+ + java version "1.8.0_25"
+ + Java(TM) SE Runtime Environment (build 1.8.0_25-b18)
+ + itext5-itextpdf-5.5.12.jar library [(https://github.com/itext/itextpdf/releases/tag/5.5.12)]  
     
  ## Installing
 If you want to modify/compile the program you candownload Signature.java source otherwise download into your working directory **Signature_pdf.jar**, **markers** and **sample** folders and run it typing:  
-java -jar Signature_pdf.jar <working directory> <input filename> <otuput filename> <group number> <signature sheets> <markers filename>  
-If you want to compile/modify simply download Signature.java source
+java -jar Signature_pdf.jar <working directory> <input filename> <output filename> <group number> <signature sheets> <markers filename>  
+If you want to compile/modify simply download Signature.java source, create a NetBeans or Eclpse IDE project, add *itext5-itextpdf-5.5.12.jar* library and add/modify  
     
  ## Requirements
  
