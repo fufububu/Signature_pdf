@@ -25,7 +25,7 @@ Then create a 48 pages booklet adjusting its dimensions to be printed on SRA3 pa
 We want markers superimposed on the folding of pages 1, 9, 7, 25, 33, 41 of this file before printing it.  
 Copy *Sample booklet.pdf* from *sample* folder in your working directory and execute 
 c:\temp\java -jar Signature_pdf.java c:\temp "Sample booklet" "Sample booklet_OK" 6 4  
-The ouput file *Sample booklet_OK.pdf* will have required markers and when printed and folded booklet spline will numbered and scaled markers to check correct stiching as shown in figure    
+The ouput file *Sample booklet_OK.pdf* will contain the required markers and when printed and folded the booklet spline will show numbered and scaled markers to check correct stiching as in figure:  
 <table><tr><td>
     <img src="https://github.com/fufububu/Signature_pdf/blob/master/Sample_book_spine.png"width="1024" height="150">
 </td></tr></table>  
