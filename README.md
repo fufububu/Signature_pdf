@@ -5,7 +5,7 @@ if not rapidly detected you will end with books to dismantle and correct or even
 I wrote this program to add a number to each signature in order rapidly check the correctness of stiching  
 only looking at the book spine. Looking at book spine should see something like:     
 <table><tr><td>
-    <img src="https://github.com/fufububu/Spine-group-markers/blob/master/Sample_book_spine.png"width="1024" height="150">
+    <img src="https://github.com/fufububu/Signature_pdf/blob/master/Sample_book_spine.png"width="1024" height="150">
 </td></tr></table>
   
 ## Getting Started
