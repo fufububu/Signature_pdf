@@ -29,9 +29,13 @@ where:
  -signature number : input file number of signatures  
  -signature sheets : signature number of sheets  
  -markers filename : optional markers flename (defaukt "marker")  
+ ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf1.png)  
  
- If you run without command line parameters a window will open 
+ If you run without command line parameters a window will open to ask parameters, markers filename is optional
   
+ ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf2.png)  
+ ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf3.png)  
+ ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf4.png)  
  
     
  ## Requirements
