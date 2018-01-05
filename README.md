@@ -54,7 +54,7 @@ Copy *Sample booklet.pdf* from *sample* folder in your working directory and exe
 or run it without parameters, a window will ask them  
 ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf3.png)  
 
-when you press OK a window consolo will show you a work resume or a log of the errors encountered, it will closa after 5 seconds
+when you press OK a window console will show you a short resume or a log of the errors encountered, it will clos after 5 seconds
 
 ![alt text](https://github.com/fufububu/Signature_pdf/blob/master/Signature_pdf4.png)  
 
